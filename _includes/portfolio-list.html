@@ -1,0 +1,19 @@
+<h2>{{ include.title }}</h2>
+<div class="portfolio">
+    {% assign projects = include.projects | sort: 'released' | reverse %}
+    {% for project in projects %}
+    <a class="portfolio-item" href="{{ project.product-url }}" target="_blank">
+    {% if project.video %}
+        <img class="preview" src="{{ project.image }}"></img>
+        <iframe class="video" type="text/html" width="325" height="183"
+        src="https://www.youtube.com/embed/{{ project.video }}?autoplay=1&controls=0&loop=1&modestbranding=1&mute=1&playlist={{ project.video }}"
+        frameborder="0" allowfullscreen></iframe>
+    {% else %}
+        <img src="{{ project.image }}"></img>
+    {% endif %}
+
+
+    {{ project.content | markdownify }}
+    </a>
+    {% endfor %}
+</div>

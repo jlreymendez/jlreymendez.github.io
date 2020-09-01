@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    {% include html-head.html %}
+    {% seo %}
+  </head>
+
+  <body>
+    {% include header.html %}
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          {{ content }}
+
+          {% include portfolio-list.html title = "Games" projects = site.games %}
+          {% include portfolio-list.html title = "Tools" projects = site.tools %}
+          {% include portfolio-list.html title = "Prototypes" projects = site.prototypes %}
+        </section>
+
+        {% include sidebar.html %}
+      </div>
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>

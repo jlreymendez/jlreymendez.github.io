@@ -1,0 +1,13 @@
+theme: jekyll-theme-architect
+
+title: "@jlreymendez"
+#description: "Thougths and portfolio"
+
+github:
+  is_project_page: false
+  is_user_page: true
+
+collections:
+  - games
+  - tools
+  - prototypes
