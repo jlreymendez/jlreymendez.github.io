@@ -1,6 +1,6 @@
 ---
 title: The Cheese Rolling Game
-url: https://apps.apple.com/us/app/the-cheese-rolling-game/id1437957480
+product-url: https://apps.apple.com/us/app/the-cheese-rolling-game/id1437957480
 image: /assets/images/cheese-rolling.jpg
 released: 201812
 layout: default
