@@ -1,6 +1,6 @@
 ---
 title: Planilo
-url: https://github.com/jlreymendez/planilo
+product-url: https://github.com/jlreymendez/planilo
 image: /assets/images/planilo.jpg
 released: 202008
 layout: default
