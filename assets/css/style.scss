@@ -68,13 +68,6 @@ header
         }
 
         p { color: #666; }
-
-        &:hover
-        {
-            background: #eee;
-            .preview { display: none; }
-            .video-wrapper { display: inline-block; }
-        }
     }
 }
 
@@ -115,6 +108,13 @@ header
             h3
             {
                 padding-left: 1.85em;
+            }
+
+            &:hover
+            {
+                background: #eee;
+                .preview { display: none; }
+                .video-wrapper { display: inline-block; }
             }
         }
     }
