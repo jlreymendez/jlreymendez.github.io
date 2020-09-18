@@ -27,7 +27,7 @@ permalink: /cv/
 
 ## Work Experience
 
-### Holy Fire Games INC. - Remote Game Programmer
+### Holy Fire Games LLC. - Remote Game Programmer
 
 #### *May 2020 - Jun 2020* - Game: PeskyUndead.IO
 
